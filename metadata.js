@@ -35,7 +35,7 @@ router.get('/metadata/:id', (req, res, next) => {
     const metaData = {
       "description": "TOTALITY is a collection of 1,919 uniquely generative Solar Eclipses with 3,840,000,000 combinations living in the blockchain. Each solar eclipse artwork is generated and animated using R programming",
       // "image": "https://gateway.pinata.cloud/ipfs/QmcBquvotTkE9dZP9knD9PMHHm72mehyZftN8xG9i2iVDp/"+metaDataId+".jpg",
-      "image": "https://ipfs.io/ipfs/QmdRSNWpJZGjmqBTBNM9BkicUc8stc8QDL94LAgykbcVHv/"+metaDataId+".jpg",
+      "image": "https://ipfs.io/ipfs/QmdRSNWpJZGjmqBTBNM9BkicUc8stc8QDL94LAgykbcVHv/"+metaDataId+".gif",
       // "image": "ipfs://"+directoryHash+"/"+metaDataId+".jpg",
       "name": "Totality #"+metaDataId,
       "attributes": [
