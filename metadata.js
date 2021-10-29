@@ -37,7 +37,7 @@ router.get('/metadata/:id', (req, res, next) => {
       // "image": "https://gateway.pinata.cloud/ipfs/QmcBquvotTkE9dZP9knD9PMHHm72mehyZftN8xG9i2iVDp/"+metaDataId+".jpg",
       "image": "https://ipfs.io/ipfs/QmdRSNWpJZGjmqBTBNM9BkicUc8stc8QDL94LAgykbcVHv/"+metaDataId+".gif",
       // "image": "ipfs://"+directoryHash+"/"+metaDataId+".jpg",
-      "name": "Totality #"+metaDataId,
+      "name": "Eclipse #"+metaDataId,
       "attributes": [
       ]
     }
