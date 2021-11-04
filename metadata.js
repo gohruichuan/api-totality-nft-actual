@@ -42,7 +42,7 @@ router.get('/metadata/:id', (req, res, next) => {
     "image": "https://ipfs.io/ipfs/QmVTCCRecqQanSikpaURVuujxUtXQi76n1EM72ohrMbadV/"+metaDataId+".gif",
     // "image": "ipfs://"+directoryHash+"/"+metaDataId+".jpg",
     "name": "Eclipse #"+metaDataId,
-    "attributes": [metadataJSON[metaDataId]]
+    "attributes": metadataJSON[metaDataId]
   };
 
   res.send(metaData);
